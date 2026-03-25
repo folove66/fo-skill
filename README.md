@@ -35,7 +35,7 @@ fo-retrospective（数据复盘）
 ## 安装
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fo-skill.git /tmp/fo-skill && cp -r /tmp/fo-skill/skills/fo* ~/.claude/skills/ && rm -rf /tmp/fo-skill
+git clone https://github.com/folove66/fo-skill.git /tmp/fo-skill && cp -r /tmp/fo-skill/skills/fo* ~/.claude/skills/ && mkdir -p ~/.claude/知识库 && cp -r /tmp/fo-skill/知识库/* ~/.claude/知识库/ && rm -rf /tmp/fo-skill
 ```
 
 安装后在 Claude Code 中输入 `/fo` 即可启动。
